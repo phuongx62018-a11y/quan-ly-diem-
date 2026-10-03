@@ -1,1 +1,4 @@
-
+- chúng em xây dựng web quản lý điểm svien , phân quyền đăng nhập ( giảng viên , sinh viên)
+- chúng em dùng ngôn ngữ PHP, csdl Mysql chạy = xampp
+- khi đăng nhập sẽ ktra tk trong mysql , có ràng buộc mk có dấu @
+- khởi tạo git init để đẩy mã nguồn lên github
