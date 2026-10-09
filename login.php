@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label>Tài khoản:</label><br>
             <input type="text" name="username" required style="width: 100%; padding: 8px; margin: 5px 0;"><br>
             
-            <label>Mật khẩu (phải có ký tự '@'):</label><br>
+            <label>Mật khẩu :</label><br>
             <input type="password" name="password" required style="width: 100%; padding: 8px; margin: 5px 0;"><br><br>
             
             <button type="submit" style="padding: 10px 20px;">Đăng Nhập</button>
