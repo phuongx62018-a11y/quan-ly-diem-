@@ -41,7 +41,7 @@ if (!isset($_SESSION['username'])) {
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
         <div class="container">
             <a class="navbar-brand" href="dashboard.php">
-                <i class="fas fa-graduation-cap text-primary me-2"></i>Quản Lý Điểm Đồ Án
+                <i class="fas fa-graduation-cap text-primary me-2"></i>Quản Lý Điểm 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['username'])) {
         <div class="row mb-4">
             <div class="col-12">
                 <div class="p-4 bg-white rounded-4 shadow-sm border-start border-4 border-primary">
-                    <h2 class="fw-bold text-dark mb-1">Chào mừng bạn trở lại, <?php echo htmlspecialchars($_SESSION['username']); ?>! 👋</h2>
+                    <h2 class="fw-bold text-dark mb-1">Chào mừng bạn đến với hệ thống quản lý điểm 👋</h2>
                     <p class="text-muted mb-0">Hôm nay bạn muốn thực hiện thao tác quản lý nào?</p>
                 </div>
             </div>
