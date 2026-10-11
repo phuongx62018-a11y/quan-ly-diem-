@@ -18,7 +18,6 @@ Quy trình em dùng:
 | Đăng nhập + ràng buộc mật khẩu có `@` | `login.php` |
 | Chặn người chưa đăng nhập | `includes/auth.php`, đầu `dashboard.php` |
 | Đăng xuất | `logout.php` |
-| Chuyển hướng ban đầu | `index.php` |
 | Trang chủ, menu | `dashboard.php` |
 | Giao diện chung | `includes/header.php`, `footer.php`, `assets/css/style.css` |
 | CRUD sinh viên / môn học / điểm | `sinhvien/`, `monhoc/`, `diem/` (index, add, edit, delete) |
@@ -56,4 +55,4 @@ Công cụ: GitHub Copilot Chat trong VS Code. Em dùng 3 kỹ năng:
 | `git blame file` | Biết dòng code do ai viết |
 
 ## Ý 3. Test
-Sử dụng bộ test case cho đăng nhập và CRUD, kết hợp Postman, trình duyệt và phpMyAdmin.
+Sử dụng bộ test case cho đăng nhập và CRUD, kết hợp Postman, Thunder Client, trình duyệt và phpMyAdmin.
