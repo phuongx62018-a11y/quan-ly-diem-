@@ -85,7 +85,7 @@ if (!isset($_SESSION['username'])) {
                         </div>
                         <h4 class="card-title fw-bold">Quản Lý Điểm</h4>
                         <p class="card-text text-muted small">Nhập, sửa, xóa và theo dõi bảng điểm chi tiết của sinh viên.</p>
-                        <a href="quanly_Diem.php" class="btn btn-primary w-100 mt-3">
+                        <a href="diem/index.php" class="btn btn-primary w-100 mt-3">
                             <i class="fas fa-arrow-right me-1"></i> Truy cập
                         </a>
                     </div>
